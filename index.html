@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>1.Delete a Parameter    <br>
+        Complete the function in the editor. You have an object as a parameter. In which you have to delete the rollno property from the object and return the object. </b>
+
+        <pre>
+            function Check(obj1) {
+                return (delete(obj1.rollno));
+           }
+
+Sample Input
+Utkarsh
+129
+
+Sample Output
+True
+        </pre>
+
+        <b>
+            2. Check whether the Package is Dream Package or not,
+            Complete the function in the editor. In which you are given an object as a parameter.
+            In that object, there is one property named as salary if the salary is maximum than 5 lakh then return "Dream" otherwise  return "NotDream".
+        </b>
+
+        <pre>
+            
+function Check(obj1) {
+    if (obj1.salary > 500000){
+      return "Dream";
+    }
+      else{
+        return "NotDream";
+      }
+    }
+
+Sample Input
+100000
+
+Sample Output
+NotDream
+        </pre>
+
+        <b>
+            3. Merge the Objects, 
+            Complete the function in the editor. In which you are given two objects as a parameter.In which you have to merge two objects and return a single object.
+        </b>
+
+        <pre>
+            function Check(obj1,obj2) {
+                return Object.assign(obj1, obj2);
+            }
+
+Sample Input
+Utkarsh 
+129
+Haryana
+121009
+
+Sample Output
+Utkarsh
+129
+Haryana
+121009
+        </pre>
+
+        <b>
+            4. Find the  sum of Object Members,
+            You are given a function Check which takes an object Obj as a parameter.
+            Your taks is to find out the sum of the three data members of the object. The data members are named as p1, p2, p3.
+            <br>
+            Note: You have to complete Check function. No need to take any input.
+        </b>
+
+        <pre>
+            function Check(obj1) {
+                return (obj1.p1) + (obj1.p2) + (obj1.p3);
+            }
+
+Sample Input
+1
+2
+3
+
+Sample Output
+6
+        </pre>
+
+        <b>
+            5. Check whether the Object has a parameter or not,
+            Complete the function in the editor. In which you are given an object as a parameter. You have to return "false" if there is no parameter in the object otherwise return "true".
+        </b>
+<pre>
+    function Check(obj1) {
+        if(Object.keys(obj1).length === 0)
+        {
+          return "false";
+        }
+        else{
+          return "true";
+        }
+      }
+
+Sample Input
+1
+
+Sample Output
+true
+</pre>
+
+<b>
+    6. Object Multiplyer
+    Complete the function in the editor. In which you are given an object and a digit N as a parameter.In the object there are two variable id and houseno are defined as a data member. You have to multiply both the data members with a given digit N
+</b>
+<pre>
+    
+function Check(a,obj1) {
+    Math.Check(a);
+    Math.imul(a, obj1);
+   }
+
+   Sample Input
+2
+12
+146
+
+Sample Output
+24
+292
+</pre>
+
+<b>
+    7. Check whether the Objects are same or not.
+    Complete the function in the editor. In which you are given an object as a parameter. That object contains two variables name and id.
+    Your task is to compare the object name and id to the new_name and new_id given there as a parameter.
+    Return "true" if new_name and id are same as objects name and id otherwise return  "false".
+</b>
+<pre>
+    function check(obj1,a,b) {
+        if(Object.obj1(a) == Object.obj1(b))
+        {
+          return "true";
+        }
+        else{
+          return "false";
+        }
+    }
+
+    Sample Input
+Utkarsh 
+2 
+Prepbytes 
+3
+
+Sample Output
+false
+</pre>
+</body>
+</html>
